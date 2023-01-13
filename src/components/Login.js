@@ -2,7 +2,7 @@ import React from 'react'
 import '../style/login.css'
 
 
-const LoginPage = () => {
+const Login = () => {
   return (
     <div className="App">
     <div className='login-page-header'> 
@@ -17,4 +17,4 @@ const LoginPage = () => {
   </div>  )
 }
 
-export default LoginPage
+export default Login

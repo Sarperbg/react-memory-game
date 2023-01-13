@@ -1,11 +1,11 @@
-import GameBoard from './components/GameBoard';
-import LoginPage from './components/LoginPage';
+import GameBoardPage from './pages/GameBoardPage'
+import LoginPage from './pages/LoginPage'
 
 function App() {
   return (
     <div className="App">
-     <GameBoard />
 
+    <GameBoardPage />
     </div>
   );
 }

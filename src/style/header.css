@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#6e69c1,#8890e9);
+}
+.left-player {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+    border: 1px solid red;
+
+}
+.avatar-left {
+    margin-left: 10%;
+    margin-top: 1rem;
+    flex: 1;
+
+}
+.player1  {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.player1 .player-1-span, .player-1-label {
+    font-size: 2rem;
+    color: #fff;
+    vertical-align:middle;
+    margin-top: 1rem;
+}
+.player-1-span {
+    text-align: center;
+}
+.player-1-label {
+    background-color: white;
+    color: #7e7bb6;
+    border-radius: 1rem;
+    text-align: center;
+}
+.right-player {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+    border: 1px solid red;
+
+}
+.avatar-right {
+    margin: 1rem;
+    flex: 1;
+
+}
+.player2  {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-left: 2rem;
+}
+.player2 .player-2-span, .player-2-label {
+    font-size: 2rem;
+    color: #fff;
+    vertical-align:middle;
+    margin-top: 1rem;
+}
+
+.player-2-span {
+    text-align: center;
+}
+.player-2-label {
+    background-color: white;
+    color: #7e7bb6;
+    border-radius: 1rem;
+    text-align: center;
+}

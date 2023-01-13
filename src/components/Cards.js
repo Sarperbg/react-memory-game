@@ -59,7 +59,7 @@ function Cards() {
               Click any card to play again.<br /><br />
             </>
           )}
-          Moves: {clicks} &nbsp;&nbsp;&nbsp; Best score:{foundPairs.length/2}
+          Clicks: {clicks} &nbsp;&nbsp;&nbsp; Best score:{foundPairs.length/2}
         </div>
       </div>
     );

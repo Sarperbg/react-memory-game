@@ -1,20 +1,25 @@
-import React from 'react'
-import '../style/login.css'
-
+import React from "react";
+import "../style/login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <div className="App">
-    <div className='login-page-header'> 
-    <h1 className='header-text'>MEMORY GAMES</h1>
+      <div className="login-page-header">
+        <h1 className="header-text">MEMORY GAMES</h1>
+      </div>
+
+      <div className="login-page-content">
+         <Link to="SettingsPage" onClick={(event) => {}}>
+            <button className="btn-settings">SETTINGS</button>
+          </Link>
+
+          <Link to="GameBoardPage" onClick={(event) => {}}>
+            <button className="btn-start">START</button>
+          </Link>
+      </div>
     </div>
+  );
+};
 
-    <div className='login-page-content'>
-      <button className='btn-settings'>SETTINGS</button>
-      <button className='btn-start'>START</button>
-    </div>
-
-  </div>  )
-}
-
-export default Login
+export default Login;

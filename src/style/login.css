@@ -7,22 +7,29 @@
   display: flex;
   flex-direction: column;
 }
+
 .header-text {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #fefefe;
   font-size: 4rem;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
   margin-top: 10%;
+
 }
 .login-page-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin-top: 5rem;
   gap: 1rem;
+  text-decoration: none;
 
+}
+.login-page-content button {
+  display: flex;
+  color: #505050;
+  text-decoration: none;
 
 }
 .btn-settings {
@@ -38,7 +45,11 @@
     background-color: #fff;
     width: 30vh;
     height: 6vh;
+    text-decoration: none;
 
+}
+.btn-settings span {
+  text-decoration: none;
 }
 .btn-start {
     justify-content: center;
@@ -52,7 +63,7 @@
     background-color: #fff;
     width: 30vh;
     height: 6vh;
-
+    text-decoration: none;
 }
 .btn-start:hover , .btn-settings:hover {
     background-color:#84eb9c;

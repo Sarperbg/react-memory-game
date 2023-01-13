@@ -3,7 +3,7 @@ import "../style/header.css";
 import avatar1 from '../Img/avatar1.png'
 import avatar2 from '../Img/avatar2.png'
 import Cards from "./Cards";
-const Header = ({moves , setMoves , scores }) => {
+const Header = ({clicks , setMoves , scores }) => {
   return (
     <div className="header">
       <div className="left-player">
@@ -12,10 +12,7 @@ const Header = ({moves , setMoves , scores }) => {
         </div>
         <div className="player1">
           <span className="player-1-span">Player 1</span>
-          <label className="player-1-label">Moves: {moves}
-           
-
-          </label>
+          <label className="player-1-label">Moves: {clicks}</label>
           <label className="player-1-label">Score: {scores}</label>
         </div>
         <hr className="hr" />
@@ -23,7 +20,7 @@ const Header = ({moves , setMoves , scores }) => {
       <div className="right-player">
         <div className="player2">
           <span className="player-2-span">Player 2</span>
-          <label className="player-2-label">Moves: {moves}</label>
+          <label className="player-2-label">Moves: {clicks}</label>
           <label className="player-2-label">Score: {scores}</label>
         </div>
         <div className="avatar-right">

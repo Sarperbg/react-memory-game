@@ -1,11 +1,9 @@
 import React from 'react'
-import GameBoard from '../components/GameBoard'
-import Header from '../components/Header'
+import GameBoard from '../components/GameBoard.js'
 const GameBoardPage = () => {
   return (
     <div>
-        <Header />
-        <GameBoard />
+      <GameBoard />
     </div>
   )
 }

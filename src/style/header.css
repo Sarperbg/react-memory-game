@@ -9,7 +9,6 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 10%;
-    border: 1px solid red;
 
 }
 .avatar-left {
@@ -44,7 +43,6 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 10%;
-    border: 1px solid red;
 
 }
 .avatar-right {

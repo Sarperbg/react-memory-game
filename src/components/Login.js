@@ -10,11 +10,11 @@ const Login = () => {
       </div>
 
       <div className="login-page-content">
-         <Link to="SettingsPage" onClick={(event) => {}}>
+         <Link to="SettingsPage" onClick={(event) => {}} className='btn-login' >
             <button className="btn-settings">SETTINGS</button>
           </Link>
 
-          <Link to="GameBoardPage" onClick={(event) => {}}>
+          <Link to="GameBoardPage" onClick={(event) => {}} className='btn-login'>
             <button className="btn-start">START</button>
           </Link>
       </div>

@@ -23,13 +23,11 @@
   flex-direction: column;
   margin-top: 5rem;
   gap: 1rem;
-  text-decoration: none;
 
 }
 .login-page-content button {
   display: flex;
   color: #505050;
-  text-decoration: none;
 
 }
 .btn-settings {
@@ -45,12 +43,10 @@
     background-color: #fff;
     width: 30vh;
     height: 6vh;
-    text-decoration: none;
+    align-items: center;
 
 }
-.btn-settings span {
-  text-decoration: none;
-}
+
 .btn-start {
     justify-content: center;
     margin:  0 auto;
@@ -63,7 +59,13 @@
     background-color: #fff;
     width: 30vh;
     height: 6vh;
-    text-decoration: none;
+    align-items: center;
+}
+.btn-login {
+  text-decoration: none;
+}
+.btn-start href {
+  text-decoration: none;
 }
 .btn-start:hover , .btn-settings:hover {
     background-color:#84eb9c;
